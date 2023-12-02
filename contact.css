@@ -1,0 +1,112 @@
+body {
+    overflow: hidden;
+}
+
+.list {
+    width: 180px;
+    height: 820px;
+    background-color:rgba(9, 54, 96, .9);
+    float: left;
+    position: relative;
+    z-index: 9999;
+    text-align: center;
+    font-family: 'Passion One', sans-serif;
+}
+
+.list img {
+    padding: 10px;
+    width: 130px;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+.list p {
+    margin-bottom: 105px;
+    color: bisque;
+    font-size: 14px;
+}
+
+.list ul li {
+    list-style-type: none;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.list ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.list ul li a:hover {
+    color: black;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+
+.main {
+    font-family: 'Passion One', sans-serif;
+    background-color: aqua;
+    height: 820px;
+    background-image: url(https://cdn.pnghd.pics/data/11/background-laut-29.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.main h1 {
+    position: absolute;
+    left: 820px;
+    font-size: 50px;
+    line-height: 100px;
+    color: white;
+    text-shadow: 
+        4px 3px 0px #333,
+        9px 8px 0px rgba(0, 0, 0, .15);
+}
+
+.main .imgfirst, .imgsecond, .imgthird{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.main .imgfirst {
+    width: 320px;
+    height: 600px;
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    text-align: center;
+}
+
+.main .imgsecond {
+    width: 320px;
+    height: 600px;
+    position: absolute;
+    top: 100px;
+    left: 1200px;
+    text-align: center;
+}
+
+.main .imgthird {
+    width: 320px;
+    height: 600px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    text-align: center;
+}
+
+.main .first, .second, .third {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.main .pfirst, .psecond, .pthird p {
+    margin-bottom: 5px;
+}
+
+

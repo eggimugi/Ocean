@@ -1,0 +1,69 @@
+body {
+    overflow: hidden;
+}
+
+.list {
+    width: 180px;
+    height: 820px;
+    background-color:rgba(9, 54, 96, .9);
+    float: left;
+    position: relative;
+    z-index: 9999;
+    text-align: center;
+    font-family: 'Passion One', sans-serif;
+}
+
+.list img {
+    padding: 10px;
+    width: 130px;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+.list p {
+    margin-bottom: 100px;
+    color: bisque;
+}
+
+.list ul li {
+    list-style-type: none;
+    margin-left: -40px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.list ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.list ul li a:hover {
+    color: black;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.jumbotron {
+    position: relative;
+    background-image: url(https://a-static.besthdwallpaper.com/white-water-waves-formed-by-blue-ocean-waters-wallpaper-1920x1080-98778_48.jpg);
+    background-size: cover;
+    height: 820px;
+    line-height: 400px;
+    font-family: 'Passion One', sans-serif;
+    color: #fff;
+    background-color: white;
+    text-shadow: 
+        4px 3px 0px #333,
+        9px 8px 0px rgba(0, 0, 0, .15);
+}
+
+.jumbotron p {
+    margin-top: 400px;
+    color: black;
+    text-shadow: 
+        9px 8px 0px rgba(0, 0, 0, .15);
+}
+
+
+

@@ -1,0 +1,133 @@
+
+.list {
+    width: 180px;
+    height: 820px;
+    background-color:rgba(9, 54, 96, .9);
+    float: left;
+    position: fixed;
+    z-index: 9999;
+    text-align: center;
+    font-family: 'Passion One', sans-serif;
+}
+
+.list img {
+    padding: 10px;
+    width: 130px;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+.list p {
+    margin-bottom: 100px;
+    color: bisque;
+}
+
+.list ul li {
+    list-style-type: none;
+    margin-left: -40px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.list ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.list ul li a:hover {
+    color: black;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.jumbotron {
+    background-image: url(img/deepsea.jpg);
+    background-size: cover;
+    height: 1200px;
+    margin-bottom: 0;
+    font-family: 'Passion One', sans-serif;
+    color: #fff;
+}
+
+.jumbotron .judul {
+    position: absolute;
+    left: 720px;
+}
+
+.jumbotron h1 {
+    text-shadow: 
+        4px 3px 0px #333,
+        9px 8px 0px rgba(0, 0, 0, .15);
+}
+
+.jumbotron .first {
+    margin-left: 15px;
+    color: black;
+    text-shadow: 
+        9px 8px 0px rgba(0, 0, 0, .15);
+}
+
+.jumbotron .imgfirst, .imgsecond, .imgthird {
+    text-align: left;
+    width: 800px;
+    height: 209px;
+    background-color: rgba(255, 255, 255, .7); 
+    padding : 10px;
+    border-radius: 20px;
+}
+
+.jumbotron .imgfirst{
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+.jumbotron .imgsecond{
+    position: absolute;
+    left: 750px;
+    top: 600px;
+}
+.jumbotron .imgthird{
+    position: absolute;
+    left: 300px;
+    top: 900px;
+}
+
+.jumbotron .imgfirst img {
+    width: 250px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+.jumbotron .imgsecond img {
+    float: right;
+    width: 250px;
+    height: 190px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.jumbotron .imgthird img {
+    width: 250px;
+    height: 190px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+.jumbotron .imgfirst p {
+    color: black;
+    font-size: 15px;
+}
+
+.jumbotron .imgsecond p {
+    color: black;
+    font-size: 15px;
+}
+
+.jumbotron .imgthird p {
+    color: black;
+    font-size: 15px;
+}
+
